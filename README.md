@@ -1,16 +1,44 @@
-# book
+# BookApp similar to google book Api
 
-A new Flutter project.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+### App overView For Reference
+![Main Page](assets/screenShots/ss.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Siz-An/book.git
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+## Dependencies
+
+#---------Firebase------------#
+
+firebase_core: ^3.2.0
+firebase_auth: ^5.1.2
+cloud_firestore: ^5.1.0
+google_sign_in: ^6.2.1
+provider: ^6.1.2
+
+#----------------------------#
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
