@@ -5,7 +5,6 @@ class SignupScreen extends StatefulWidget {
   @override
   _SignupScreenState createState() => _SignupScreenState();
 }
-
 class _SignupScreenState extends State<SignupScreen> {
   final AuthService _auth = AuthService();
   final TextEditingController _emailController = TextEditingController();
@@ -21,7 +20,6 @@ class _SignupScreenState extends State<SignupScreen> {
       // Handle registration failure
     }
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
